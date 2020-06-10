@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/mainPage/InstagramBody.dart';
+import 'package:instagramflutter/widgets/instagram_bottom_appbar.dart';
 
 class InstagramHome extends StatelessWidget {
   final topBar = AppBar(
@@ -25,58 +26,7 @@ class InstagramHome extends StatelessWidget {
     return Scaffold(
       appBar: topBar,
       body: InstagramBody(),
-      bottomNavigationBar: BottomAppBar(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            IconButton(
-              icon: Icon(
-                Icons.home,
-                size: 30,
-              ),
-              onPressed: () {
-                //
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                Icons.search,
-                size: 30,
-              ),
-              onPressed: () {
-                //
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                Icons.add_box,
-                size: 30,
-              ),
-              onPressed: () {
-                //
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                Icons.favorite_border,
-                size: 30,
-              ),
-              onPressed: () {
-                //
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                Icons.perm_identity,
-                size: 30,
-              ),
-              onPressed: () {
-                //
-              },
-            ),
-          ],
-        ),
-      ),
+      bottomNavigationBar: InstagramBottomAppBar(),
     );
   }
 }
