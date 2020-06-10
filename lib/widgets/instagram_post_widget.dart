@@ -24,13 +24,11 @@ class InstagramPost extends StatelessWidget {
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       image: DecorationImage(
+                        fit: BoxFit.cover,
                         image: NetworkImage(kUrl),
                       ),
                     ),
-                    child: CircleAvatar(
-                      radius: 10,
-                      backgroundColor: Colors.grey,
-                    ),
+//
                   ),
                   SizedBox(
                     width: 10,

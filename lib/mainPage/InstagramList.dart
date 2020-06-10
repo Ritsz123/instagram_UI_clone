@@ -11,7 +11,7 @@ class InstagramList extends StatelessWidget {
       itemCount: 5,
       itemBuilder: (context, index) => index == 0
           ? SizedBox(
-              height: 100,
+              height: 110,
               child: InstagramStoryList(),
             )
           : InstagramPost(),

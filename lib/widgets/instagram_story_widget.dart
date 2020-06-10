@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/constants/constants.dart';
 
@@ -15,6 +16,7 @@ class InstagramStory extends StatelessWidget {
               alignment: Alignment.bottomRight,
               children: [
                 Container(
+                  margin: EdgeInsets.symmetric(horizontal: 5),
                   height: 60,
                   width: 60,
                   decoration: BoxDecoration(

@@ -5,10 +5,6 @@ import 'package:instagramflutter/mainPage/InstagramList.dart';
 class InstagramBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        InstagramList(),
-      ],
-    );
+    return InstagramList();
   }
 }

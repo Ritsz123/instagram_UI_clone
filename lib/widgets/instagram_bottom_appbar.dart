@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class InstagramBottomAppBar extends StatelessWidget {
   @override
@@ -9,8 +10,8 @@ class InstagramBottomAppBar extends StatelessWidget {
         children: [
           IconButton(
             icon: Icon(
-              Icons.home,
-              size: 30,
+              FontAwesomeIcons.home,
+              size: 25,
             ),
             onPressed: () {
               //
@@ -18,8 +19,8 @@ class InstagramBottomAppBar extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.search,
-              size: 30,
+              FontAwesomeIcons.search,
+              size: 25,
             ),
             onPressed: () {
               //
@@ -27,8 +28,8 @@ class InstagramBottomAppBar extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.add_box,
-              size: 30,
+              FontAwesomeIcons.plusSquare,
+              size: 25,
             ),
             onPressed: () {
               //
@@ -36,8 +37,8 @@ class InstagramBottomAppBar extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.favorite_border,
-              size: 30,
+              FontAwesomeIcons.heart,
+              size: 25,
             ),
             onPressed: () {
               //
@@ -45,8 +46,8 @@ class InstagramBottomAppBar extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.perm_identity,
-              size: 30,
+              FontAwesomeIcons.userCircle,
+              size: 25,
             ),
             onPressed: () {
               //
